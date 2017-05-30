@@ -67,8 +67,8 @@
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3 text-center">
                         <div class="section-heading">
-                            <h2 class="section-title">Dejanos un mensaje</h2>
-                            <p class="section-subtitle">En ODISEO queremos ayudarte a alcanzar tus metas</p>
+                            <h2 class="section-title">Pide tu cotización</h2>
+                            <p class="section-subtitle">Para poder ayudarte de la mejor manera requerimos algunos detalles sobre el proyecto que tienes pensado desarrollar. </p>
                         </div>
                     </div>
                 </div>
@@ -78,10 +78,18 @@
                             <div class="row">
                                 <div class="col-sm-6"><input type="text" name="name" placeholder="Nombre" required></div>
                                 <div class="col-sm-6"><input type="email" name="email" placeholder="Correo" required></div>
-                                <div class="col-sm-12"><input type="text" name="subject" placeholder="Asunto" required></div>
-                                <div class="col-sm-12"><textarea placeholder="Mensaje" rows="4" required></textarea></div>
+                                <div class="col-sm-6"><input type="text" name="phone" placeholder="Teléfono" required></div>
+                                <div class="col-sm-6">
+                                    <select>
+                                        <option value="paginaweb">Desarrollo página web</option>
+                                        <option value="comercioelectronico">Creación comercio electrónico</option>
+                                        <option value="inboundmarketing">Programa inbound marketing</option>
+                                        <option value="asesoria">Asesoría en otros temas</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-12"><textarea placeholder="Detalles sobre el proyecto" rows="4" required></textarea></div>
                                 <div class="col-sm-12 text-center">
-                                    <button class="btn" type="submit">Enviar mensaje</button>
+                                    <button class="btn btn-orange" type="submit">Enviar mensaje</button>
                                 </div>
                             </div>
                         </form>

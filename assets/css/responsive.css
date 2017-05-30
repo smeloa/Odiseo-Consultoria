@@ -100,15 +100,15 @@
         font-size: 3rem;
     }
     .navbar-default .navbar-toggle {
-        border-color: #1193d4;
+        border-color: #f59d00;
         margin-top: 13px;
         margin-bottom: 13px;
     }
     .navbar-default .navbar-toggle .icon-bar {
-        background-color: #1193d4;
+        background-color: #f59d00;
     }
     .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-        background-color: #1193d4;
+        background-color: #f59d00;
     }
     .navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar{
         background-color: #ffffff;
@@ -195,7 +195,7 @@
     }
     .description-tab .nav-tabs>li>a:after {
         border-width: 25px 15px 25px 15px;
-        border-color: #1193d4 transparent transparent transparent;
+        border-color: #f59d00 transparent transparent transparent;
         right: auto;
         left: 50%;
         top: 100%;
