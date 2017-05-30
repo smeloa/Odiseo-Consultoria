@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 700;
     margin: 0 0 10px 0;
     line-height: 1.33;
-    color: #1193d4;
+    color: #000;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.3px;
@@ -94,7 +94,7 @@ a{
     transition: all 0.4s ease;
 }
 a, a:focus, a:visited{
-    color: #1193d4;
+    color: #000;
 }
 a:hover {
     color: #416467;
@@ -130,7 +130,7 @@ ul li:before{
     font-family: "FontAwesome";
     font-size: 1.8rem;
     vertical-align: middle;
-    color: #1193d4;
+    color: #000;
     margin-right: 12px;
 }
 img{
@@ -152,7 +152,7 @@ img{
     padding: 112px 0;
 }
 .section-bg:before{
-    background-color: #1193d4;
+    background-color: #000;
     z-index: 0;
     content: "";
     position: absolute;
@@ -195,7 +195,7 @@ img{
     margin-left: -100px;
 }
 .section-bg .section-heading:before{
-    background-color: #1193d4;
+    background-color: #000;
 }
 .section-heading:after{
     content: "";
@@ -204,7 +204,7 @@ img{
     left: 50%;
     width: 50px;
     height: 1px;
-    background-color: #1193d4;
+    background-color: #000;
     margin-left: -25px;
     transition: all 0.3s ease;
 }
@@ -252,7 +252,7 @@ img{
     display: inline-block;
     font-size: 1.8rem;
     color: #ffffff;
-    background-color: #1193d4;
+    background-color: #000;
     border-radius: 4px;
     padding: 10px 52px;
     position: relative;
@@ -267,15 +267,15 @@ img{
     z-index: -1;
 }
 .btn:hover, .btn:focus:hover, .btn:visited:hover{
-    background-color: #1578aa;
+    background-color: #CF7004;
     color: #ffffff;
 }
 .btn-white, .btn-white:focus, .btn-white:visited{
-    color: #1193d4;
+    color: #000;
     background-color: #ffffff;
 }
 .btn-white:hover, .btn-white:focus:hover, .btn-white:visited:hover, .btn-orange:hover, .btn-orange:focus:hover, .btn-orange:visited:hover{
-    background-color: #ED5A3D;
+    background-color: #CF7004;
 }
 .btn-white:before{
     content: "";
@@ -291,7 +291,7 @@ img{
     transform: scale(1);
 }
 .btn-orange, .btn-orange:focus, .btn-orange:visited{
-    background-color: #ff7f66;
+    background-color: #F59D00;
 }
 .button-group {
     margin-top: 45px;
@@ -492,7 +492,7 @@ Navigation
     transform: translateY(0);
 }
 .navbar-default .navbar-brand{
-    color: #1193d4;
+    color: #F59D00;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 3.4rem;
@@ -514,23 +514,23 @@ Navigation
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: #ffffff;
-    background-color: #1193d4;
+    background-color: #000;
 }
 .navbar-default .navbar-right > li > a{
-    color: #1193d4;
+    color: #000;
 }
 .navbar-default .navbar-right > li > a:hover{
     color: #416467;
 }
 .nav-download a {
-    background-color: #1193d4;
+    background-color: #F59D00;
     color: #ffffff !important;
     border-radius: 4px;
     padding: 12px 20px !important;
     margin: 8px 0 8px 20px;
 }
 .nav-download a:hover{
-    background-color: #1578aa !important;
+    background-color: #CF7004 !important;
 }
 
 /*----------------------------------------
@@ -538,7 +538,13 @@ Header
 ----------------------------------------*/
 .top-header{
     background-image: url(../img/bg/1.jpg);
-    height: 850px;
+    height: 700px;
+}
+.top-header-404{
+    background-image: url(../img/bg/3.jpg);
+}
+.top-header-thanks{
+    background-image: url(../img/bg/4.jpg);
 }
 .logo{
     display: inline-block;
@@ -631,7 +637,7 @@ Header
     position: absolute;
     width: 75%;
     height: 6px;
-    background-color: #1193d4;
+    background-color: #000;
     opacity: 0.11;
     left: 50%;
     transform: translateX(-50%);
@@ -646,7 +652,7 @@ Header
     margin-bottom: 25px;
 }
 .banner-signup input {
-    border: 1px solid #1193d4;
+    border: 1px solid #000;
     border-radius: 4px;
     text-align: center;
 }
@@ -672,7 +678,7 @@ Header
 CTA / Free Trial
 ----------------------------------------*/
 .cta-section{
-    background-color: #1193d4;
+    background-color: #000;
     padding: 40px 0;
 }
 .cta-heading{
@@ -715,11 +721,11 @@ Intro
     transition: all 0.4s ease;
 }
 .intro:hover{
-    background-color: #1193d4;
+    background-color: #000;
 }
 .intro-icon{
     font-size: 3rem;
-    background-color: #1193d4;
+    background-color: #000;
     position: relative;
     text-align: center;
     width: 63px;
@@ -735,8 +741,8 @@ Intro
 }
 .intro:hover .intro-icon{
     background-color: #ffffff;
-    box-shadow: 0 0 0 10px #1193d4;
-    color: #1193d4;
+    box-shadow: 0 0 0 10px #000;
+    color: #000;
 }
 .intro-heading {
     font-size: 1.8rem;
@@ -778,7 +784,7 @@ Features
 .feature:hover .feature-icon{
     background-color: #ffffff;
     box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.2);
-    color: #1193d4;
+    color: #000;
 }
 .feature-title{
     font-size: 1.8rem;
@@ -812,7 +818,7 @@ More Features
     height: 60px;
     line-height: 60px;
     text-align: center;
-    background-color: #1193d4;
+    background-color: #000;
     border-radius: 50%;
     float: left;
     margin-right: 18px;
@@ -820,7 +826,7 @@ More Features
 }
 .more-feature:hover .more-feature-icon {
     box-shadow: 0 0 0 10px rgba(0, 168, 224, 0.2);
-    color: #1193d4;
+    color: #000;
     background-color: #ffffff;
 }
 .more-feature-content{
@@ -865,7 +871,7 @@ Fun Fact
 .fun-fact:hover .fact-icon{
     background-color: #ffffff;
     box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.2);
-    color: #1193d4;
+    color: #000;
 }
 .fact-count{
     font-family: 'Roboto', sans-serif;
@@ -910,17 +916,17 @@ Description
     display: block;
     height: 80px;
     width: 80px;
-    border: 3px solid #1193d4;
+    border: 3px solid #000;
     border-radius: 50%;
     font-size: 3rem;
-    color: #1193d4;
+    color: #000;
     line-height: 77px;
     padding: 0;
     text-align: center;
     position: relative;
 }
 .description-tab .nav-tabs>li>a:focus, .description-tab .nav-tabs>li>a:hover {
-    background-color: #1193d4;
+    background-color: #000;
     color: #ffffff;
 }
 .description-tab .nav-tabs>li>a:after{
@@ -933,14 +939,14 @@ Description
     transform: translate(-20px, -50%);
     border-width: 15px 25px 15px 25px;
     border-style: solid;
-    border-color: transparent transparent transparent #1193d4;
+    border-color: transparent transparent transparent #000;
     opacity: 0;
     transition: none;
 }
 .description-tab .nav-tabs>li.active>a, .description-tab .nav-tabs>li.active>a:focus, .description-tab .nav-tabs>li.active>a:hover{
-    background-color: #1193d4;
-    border: 3px solid #1193d4;
-    box-shadow: 0 0 0 10px #1193d4;
+    background-color: #000;
+    border: 3px solid #000;
+    box-shadow: 0 0 0 10px #000;
     color: #ffffff;
 }
 .description-tab .nav-tabs>li.active>a:after, .description-tab .nav-tabs>li.active>a:focus:after, .description-tab .nav-tabs>li.active>a:hover:after{
@@ -1034,7 +1040,7 @@ Screenshots
     opacity: 1;
 }
 .screenshot-carousel .owl-controls .owl-buttons > div:hover{
-    color: #1193d4;
+    color: #000;
 }
 .screenshot-carousel .owl-controls .owl-buttons .owl-prev{
     left: -40px;
@@ -1047,7 +1053,7 @@ Screenshots
 Reviews
 ----------------------------------------*/
 .review-area{
-    background-image: url(../img/bg/5.jpg);
+    background-image: url(../img/bg/2.jpg);
 }
 .reviews {
     padding: 0 148px 0 148px;
@@ -1120,12 +1126,12 @@ Price Table
     margin-bottom: 30px;
 }
 .price-heading{
-    background: #84cce3;
+    background: #FFC72D;
     border-radius: 4px;
     transition: all 0.3s ease;
 }
 .price-table:hover .price-heading, .price-table.active .price-heading{
-    background-color: #1293d5;
+    background-color: #000;
 }
 .price-plan {
     font-weight: 800;
@@ -1168,17 +1174,16 @@ Price Table
     background: #f7f7f7;
 }
 .btn-get-plan {
-    border: 1px solid #1193d4;
-    background-color: transparent;
-    color: #1193d4;
+    background-color: #F59D00;
+    color: #ffffff;
     padding: 12px 46px;
 }
 .btn-get-plan:focus, .btn-get-plan:visited{
     background-color: transparent;
-    color: #1193d4;
+    color: #ffffff;
 }
 .price-table.active .btn-get-plan, .btn-get-plan:hover{
-    background-color: #1578aa;
+    background-color: #F59D00 !important;
     color: #ffffff;
 }
 
@@ -1204,7 +1209,7 @@ Download
 }
 .download-area .button-group .btn:hover{
     background-color: #ffffff;
-    color: #1193d4;
+    color: #000;
 }
 .download-area .button-group .btn + .btn {
     margin-left: 50px;
@@ -1226,7 +1231,7 @@ Team Members
     transition: all 0.3s ease;
 }
 .team-member:hover{
-    background-color: #1193d4;;
+    background-color: #000;;
 }
 .member-mock{
     border-radius: 50%;
@@ -1270,7 +1275,7 @@ Team Members
 .member-connections a{
     font-size: 2rem;
     color: #ffffff;
-    background-color: #1193d4;
+    background-color: #000;
     display: inline-block;
     width: 42px;
     height: 42px;
@@ -1284,7 +1289,7 @@ Team Members
 }
 .team-member:hover a{
     background-color: #ffffff;
-    color: #1193d4;
+    color: #000;
 }
 .member-connections a:hover{
     box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
@@ -1323,15 +1328,15 @@ Faq
     transition: all 0.3s ease;
 }
 .panel-default>.panel-heading.active{
-    background-color: #1193d4;
+    background-color: #000;
 }
 .panel-title{
-    color: #1193d4;
+    color: #000;
     text-transform: none;
     font-family: 'Roboto', sans-serif;
 }
 .panel-title a{
-    color: #1193d4;
+    color: #000;
     position: relative;
     display: block;
     transition: all 0.3s ease;
@@ -1357,7 +1362,7 @@ Faq
     padding: 25px 40px 25px 20px;
 }
 .panel-body p{
-    border-left: 4px solid #1193d4;
+    border-left: 4px solid #000;
     padding-left: 18px;
     margin: 0;
 }
@@ -1377,9 +1382,9 @@ Bootstrap Form
 .input-group-addon {
     font-size: 1.6rem;
     width: 44px;
-    color: #1193d4;
+    color: #000;
     background-color: transparent;
-    border: 1px solid #1193d4;
+    border: 1px solid #000;
     border-radius: 0;
 }
 .form-control {
@@ -1387,13 +1392,13 @@ Bootstrap Form
     font-size: 1.6rem;
     color: #4a4a4a;
     background-color: transparent;
-    border: 1px solid #1193d4;
+    border: 1px solid #000;
     box-shadow: none;
     border-radius: 0;
     transition: all 0.3s ease;
 }
 button.form-control {
-    background-color: #1193d4;
+    background-color: #000;
     color: #ffffff;
     text-transform: uppercase;
     font-size: 1.8rem;
@@ -1436,7 +1441,7 @@ Subscribe
     font-weight: 700;
     text-transform: uppercase;
     line-height: 24px;
-    color: #1193d4;
+    color: #000;
     background-color: #ffffff;
     border: 1px solid #ffffff;
     vertical-align: middle;
@@ -1462,7 +1467,7 @@ Contact Area
     display: none;
 }
 .input-success{
-    border: 1px solid #1193d4;
+    border: 1px solid #000;
 }
 .input-error{
     border: 1px solid #ff0000;
@@ -1478,7 +1483,7 @@ Contact Area
 }
 .contact-icon{
     font-size: 2.4rem;
-    color: #1193d4;
+    color: #000;
     margin-bottom: 10px;
     display: inline-block;
 }
@@ -1491,9 +1496,9 @@ Contact Area
 Footer
 ----------------------------------------*/
 footer{
-    background-color: #1193d4;
-    padding-top: 80px;
-    padding-bottom: 50px;
+    background-color: #000;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 .logo-footer{
     display: inline-block;
@@ -1503,17 +1508,17 @@ footer{
     opacity: 1;
 }
 footer .socials{
-    margin-top: 70px;
+    margin-top: 30px;
 }
 footer .social{
     font-size: 2.5rem;
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
     border-radius: 50%;
     background-color: #ffffff;
     display: inline-block;
-    color: #1193d4;
+    color: #000;
 }
 footer .social + .social{
     margin-left: 16px;
@@ -1533,7 +1538,7 @@ footer .social:hover{
     height: 50px;
     width: 50px;
     font-size: 2rem;
-    background-color: #1193d4;
+    background-color: #000;
     text-align: center;
     color: #ffffff;
     line-height: 46px;
@@ -1553,7 +1558,7 @@ Extra Pages
 }
 .page-header {
     margin: 0;
-    border-bottom: 1px solid #1193d4;
+    border-bottom: 1px solid #000;
     padding: 80px 0;
     position: relative;
     background-position: center center;
@@ -1567,7 +1572,7 @@ Extra Pages
     height: 100%;
     width: 100%;
     z-index: 0;
-    background-color: #1193d4;
+    background-color: #000;
     opacity: 0.8;
 }
 
@@ -1612,7 +1617,7 @@ article + article{
     line-height: 30px;
     text-align: center;
     border-radius: 50%;
-    background-color: #1193d4;
+    background-color: #000;
     color: #ffffff;
 }
 .page-link:hover{
@@ -1646,7 +1651,7 @@ aside, .widget-content{
     position: relative;
 }
 .searchform input[type=search] {
-    border: 1px solid #1193d4;
+    border: 1px solid #000;
     padding: 10px 35px 10px 20px;
     box-shadow: none;
     margin: 0;
@@ -1667,7 +1672,7 @@ aside, .widget-content{
     color: #6a6a6a;
 }
 .cat:hover{
-    color: #1193d4;
+    color: #000;
 }
 .cat a{
     color: inherit;
@@ -1711,7 +1716,7 @@ aside, .widget-content{
     margin-bottom: -10px;
 }
 .widget-tag .tag {
-    border: 1px solid #1193d4;
+    border: 1px solid #000;
     border-radius: 4px;
     display: inline-block;
     float: left;
@@ -1723,7 +1728,7 @@ aside, .widget-content{
 }
 .widget-tag .tag:hover{
     color: #ffffff;
-    background-color: #1193d4;
+    background-color: #000;
 }
 
 /*----------------------------------------
@@ -1742,8 +1747,8 @@ Blog Page Single
 }
 /*** Share on socials ***/
 .share-block {
-    border-top: 1px solid #1193d4;
-    border-bottom: 1px solid #1193d4;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
     margin: 60px 0;
     padding: 15px 0;
 }
@@ -1761,7 +1766,7 @@ Blog Page Single
     margin: 0 15px;
 }
 .share-btn:hover{
-    color: #1193d4;
+    color: #000;
 }
 
 /*** Comments ***/
