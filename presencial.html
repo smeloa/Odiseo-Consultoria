@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ODISEO - Consultoria Digital</title>
-    <meta name="description" content="Odiseo es una empresa de consultoría especializada en estrategias de marketing digital y comercio en linea."> 
+    <meta name="description" content="Odiseo es una empresa de consultoría especializada en estrategias de marketing digital y comercio en linea.">
 
     <!-- External CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -70,35 +70,17 @@
         </div>
     </nav>
 
-
-    <!-- Header -->
-    <header id="top-header" class="top-header top-header-404 section-bg banner-v2">
-        <div class="verticle-center">
-            <div class="container">
-                <div class="row">
-                    <div class="display-flex">
-                        <div class="col-md-10 col-md-offset-1 text-center">
-                            <h1>¡PARECE QUE LA PÁGINA QUE ESTABAS BUSCANDO NO EXISTE!</h1>
-                            <p>Por que sabemos lo difícil que es navegar el océano digital, en ODISEO siempre estamos dispuestos a ayudarte</p>
-                            <div class="button-group">
-                                <a class="btn btn-orange" href="index.html">INICIO</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+    <!-- Main Body Area -->
+    <div class="main-wrap">
 
         <!-- Contact Area -->
-        <!-- Contact Area -->
-        <div id="contacto404" class="section section-padding-extra contact-area">
+        <div id="presencial" class="section section-padding-extra contact-area">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3 text-center">
                         <div class="section-heading">
-                            <h2 class="section-title">¿Quieres que te ayudemos en algo?</h2>
-                            <p class="section-subtitle">Juntos podemos lograr tus metas</p>
+                            <h2 class="section-title">Agendar asesoría</h2>
+                            <p class="section-subtitle">Para poder ayudarte de la mejor manera requerimos algunos detalles sobre el proyecto que tienes pensado desarrollar.</p>
                         </div>
                     </div>
                 </div>
@@ -106,15 +88,46 @@
                     <div class="col-md-8 col-md-offset-2">
                         <form id="contactForm" class="contact-form wow animated fadeInUp" data-wow-duration="1.5s" action="thank-you" method="post">
                             <div class="row">
+                                <div><input type="hidden" name="typeschedule" value="presencial"></div>
                                 <div class="col-sm-6"><input type="text" name="name" placeholder="Nombre" required></div>
                                 <div class="col-sm-6"><input type="email" name="email" placeholder="Correo" required></div>
-                                <div class="col-sm-12"><input type="text" name="subject" placeholder="Asunto" required></div>
-                                <div class="col-sm-12"><textarea placeholder="Mensaje" rows="4" required></textarea></div>
+                                <div class="col-sm-6"><input type="text" name="phone" placeholder="Teléfono" required></div>
+                                <div class="col-sm-6">
+                                    <select>
+                                        <option value="paginaweb">Desarrollo página web</option>
+                                        <option value="comercioelectronico">Creación comercio electrónico</option>
+                                        <option value="inboundmarketing">Programa inbound marketing</option>
+                                        <option value="asesoria">Asesoría en otros temas</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-12"><textarea placeholder="Detalles sobre el proyecto" rows="4" required></textarea></div>
                                 <div class="col-sm-12 text-center">
-                                    <button class="btn" type="submit">Enviar mensaje</button>
+                                    <button class="btn btn-orange" type="submit">Pedir cita</button>
                                 </div>
                             </div>
                         </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-infos">
+                        <div class="col-sm-4 text-center">
+                            <div class="contact-item wow animated fadeInUp" data-wow-duration="1.5s">
+                                <span class="contact-icon"><i class="fa fa-map-marker"></i></span>
+                                <p class="contact-detail">Bogotá, Colombia</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <div class="contact-item wow animated fadeInUp" data-wow-delay="0.5s" data-wow-duration="1.5s">
+                                <span class="contact-icon"><i class="fa fa-envelope"></i></span>
+                                <p class="contact-detail"><a href="mailto:odiseoconsultoria@gmail.com">odiseoconsultoria@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <div class="contact-item wow animated fadeInUp" data-wow-delay="1s" data-wow-duration="1.5s">
+                                <span class="contact-icon"><i class="fa fa-phone"></i></span>
+                                <p class="contact-detail"><a href="tel:3006251089">3006251089</a></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
